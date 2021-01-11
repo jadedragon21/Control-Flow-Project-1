@@ -1,19 +1,33 @@
 package com.tts;
 
 public class AsciiChars {
+
     public static void printNumbers()
+
     {
-        // TODO: print valid numeric input
+        System.out.println("Valid Numeric Inputs");
+        for (int i=48; i<= 57; i++){
+            System.out.print((char)i);
+        }
+        System.out.println();
     }
 
     public static void printLowerCase()
     {
-        // TODO: print valid lowercase alphabetic input
+        System.out.println("print valid lowercase alphabetic input");
+        for(int i=97; i<=122; i++){
+            System.out.print((char)i);
+        }
+        System.out.println();
     }
 
     public static void printUpperCase()
     {
-        // TODO: print valid uppercase alphabetic input
+        System.out.println("print valid uppercase alphabetic input");
+        for(int i=65; i<=90; i++){
+            System.out.print((char)i);
+        }
+        System.out.println();
     }
 }
 
