@@ -53,10 +53,10 @@ public class Main {
             String fvPet = "";
             System.out.println("What's your favorite pet's name human? : ");
             fvPet = redQueen.nextLine();
-            System.out.println("Awe! A pet named " + fvPet + ", how cute!");
+            System.out.println("Awe! A pet named " + fvPet + ". How cute!");
 
             //Favorite Pet Age
-            System.out.println(" What's " + fvPet + " ,age in years? (##): ");
+            System.out.println(" What's " + fvPet + "'s, age in years? (##): ");
             int favPetAge = redQueen.nextInt();
             reply = redQueen.nextLine();
             System.out.println("Age of your favorite pet: " + favPetAge);
